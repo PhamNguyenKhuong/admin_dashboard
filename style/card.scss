@@ -1,0 +1,22 @@
+.card {
+    background: white;
+    border-radius: $border_radius;
+    box-shadow: $box_shadow;
+    border-left: 0.5rem solid rgb(235, 166, 33);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    h4 {
+        margin: 0;
+    }
+    .card_actions {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+    }
+    img {
+        padding-left: 1vh;
+    }
+}
